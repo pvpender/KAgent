@@ -1,0 +1,38 @@
+{
+  "name": "pvpender/kagent",
+  "type": "library",
+  "description": "Lightning fast, minimalist KPHP UserAgent string parser.",
+  "keywords": [
+    "user agent",
+    "useragent",
+    "parser",
+    "browser",
+    "browser detection"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+
+  },
+  "authors": [
+    {
+      "name": "pvpender",
+      "email": "Nicolaymoiseev1@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/UserAgentParser.php",
+      "src/UserAgentInterface.php",
+      "src/UserAgent.php",
+      "src/Platforms.php",
+      "src/Browsers.php"
+    ],
+    "psr-4": {
+      "pvpender\\KAgent\\": "src/"
+    }
+  }
+}
