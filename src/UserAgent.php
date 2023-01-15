@@ -43,10 +43,10 @@ class UserAgent implements UserAgentInterface {
         return $this->browserVersion;
     }
 
-    private function checkIfNull(?string $arg): string
+    private function checkIfNull(?string $arg): ?string
     {
         if (is_null($arg) || $arg === "null" || $arg === "false"){
-            return "";
+            return null;
         }
         return $arg;
     }
