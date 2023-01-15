@@ -12,12 +12,11 @@ Simple library to parsing user-agent in KPHP.
 composer require pvpender/kagent
 ```
 
------
 Requirements 
 =======
 Library require php 7.4 and the latest version of [KPHP](https://github.com/VKCOM/kphp)
 
------
+
 Before starting
 ===
 If you want to get an os version, user-agent **is not reliable source!** 
