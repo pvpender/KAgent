@@ -13,12 +13,10 @@
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
-    "ext-zip": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "9.3.0",
     "vkcom/kphpunit": "dev-master",
-    "vkcom/ktest-script": "^0.7.5"
   },
   "authors": [
     {
