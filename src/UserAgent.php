@@ -14,7 +14,6 @@ class UserAgent implements UserAgentInterface {
      * UserAgent constructor
      */
     public function __construct(?string $platform, ?string $browser, ?string $browserVersion ) {
-
         $this->platform       = $this->checkIfNull($platform);
         $this->browser        = $this->checkIfNull($browser);
         $this->browserVersion = $this->checkIfNull($browserVersion);
