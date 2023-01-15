@@ -1,0 +1,13 @@
+name: PHP
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: php-actions/composer@v5
+      - name: Test
+        run: |
+          make ci-tests
