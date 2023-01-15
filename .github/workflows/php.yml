@@ -5,9 +5,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    with:
-      php-version: '8.2'
-      extensions: zlib
     steps:
       - uses: actions/checkout@v2
       - uses: php-actions/composer@v5
