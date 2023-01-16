@@ -3,6 +3,7 @@ KAgent
 
 [![Total Downloads](http://poser.pugx.org/pvpender/kagent/downloads)](https://packagist.org/packages/pvpender/kagent)
 [![PHP Version Require](http://poser.pugx.org/pvpender/kagent/require/php)](https://packagist.org/packages/pvpender/kagent)
+![Build Status](https://github.com/$user/$repo/workflows/PHP/badge.svg)
 
 Simple library to parsing user-agent in KPHP.
 
