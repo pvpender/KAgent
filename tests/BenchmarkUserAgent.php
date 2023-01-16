@@ -2,7 +2,7 @@
 
 use pvpender\KAgent\UserAgentParser;
 
-class BenchmarkUserAgeng{
+class BenchmarkUserAgent{
     public function benchmarkParse(){
         $out = [];
         $uas = json_decode(file_get_contents("/home/nic/Документы/KAgent/tests/user_agents_sameples.json"), true);
