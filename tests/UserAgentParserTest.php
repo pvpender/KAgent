@@ -20,7 +20,7 @@ class UserAgentParserTest extends TestCase {
     }
 
     /**
-     *
+     * @dataProvider userAgentDataProvider
      * @param mixed[] $array
      */
     public function test_parse(string $string, $array) {
